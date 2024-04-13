@@ -1,2 +1,6 @@
-package models.enums;public enum BillStatus {
+package models.enums;
+
+public enum BillStatus {
+    PAID,
+    UNPAID
 }
