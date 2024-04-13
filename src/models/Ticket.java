@@ -3,7 +3,6 @@ package models;
 import java.time.LocalDateTime;
 
 public class Ticket {
-    private int id;
     private ParkingSpot parkingSpot;
     private Vehicle vehicle;
     private LocalDateTime entryTime;
@@ -12,20 +11,11 @@ public class Ticket {
     public Ticket() {
     }
 
-    public Ticket(int id, ParkingSpot parkingSpot, Vehicle vehicle, LocalDateTime entryTime, Gate entryGate) {
-        this.id = id;
+    public Ticket(ParkingSpot parkingSpot, Vehicle vehicle, LocalDateTime entryTime, Gate entryGate) {
         this.parkingSpot = parkingSpot;
         this.vehicle = vehicle;
         this.entryTime = entryTime;
         this.entryGate = entryGate;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public ParkingSpot getParkingSpot() {

@@ -3,8 +3,7 @@ package models;
 import models.enums.GateStatus;
 import models.enums.GateType;
 
-public class Gate {
-    private int id;
+public class Gate extends BaseModel{
     private GateType gateType;
     private int gateNumber;
     private String attendant;
@@ -13,20 +12,11 @@ public class Gate {
     public Gate() {
     }
 
-    public Gate(int id, GateType gateType, int gateNumber, String attendant, GateStatus gateStatus) {
-        this.id = id;
+    public Gate(GateType gateType, int gateNumber, String attendant, GateStatus gateStatus) {
         this.gateType = gateType;
         this.gateNumber = gateNumber;
         this.attendant = attendant;
         this.gateStatus = gateStatus;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public GateType getGateType() {

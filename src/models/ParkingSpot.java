@@ -3,8 +3,7 @@ package models;
 import models.enums.ParkingSpotStatus;
 import models.enums.VehicleType;
 
-public class ParkingSpot {
-    private int id;
+public class ParkingSpot extends BaseModel{
     private int number;
     private VehicleType vehicleType;
     private ParkingSpotStatus parkingSpotStatus;
@@ -13,20 +12,11 @@ public class ParkingSpot {
     public ParkingSpot() {
     }
 
-    public ParkingSpot(int id, int number, VehicleType vehicleType, ParkingSpotStatus parkingSpotStatus, Vehicle vehicle) {
-        this.id = id;
+    public ParkingSpot(int number, VehicleType vehicleType, ParkingSpotStatus parkingSpotStatus, Vehicle vehicle) {
         this.number = number;
         this.vehicleType = vehicleType;
         this.parkingSpotStatus = parkingSpotStatus;
         this.vehicle = vehicle;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public int getNumber() {

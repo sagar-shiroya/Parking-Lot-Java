@@ -3,7 +3,6 @@ package models;
 import models.enums.VehicleType;
 
 public class Vehicle {
-    private int id;
     private String vehicleNumber;
     private VehicleType type;
     private String color;
@@ -11,19 +10,10 @@ public class Vehicle {
     public Vehicle() {
     }
 
-    public Vehicle(int id, String vehicleNumber, VehicleType type, String color) {
-        this.id = id;
+    public Vehicle(String vehicleNumber, VehicleType type, String color) {
         this.vehicleNumber = vehicleNumber;
         this.type = type;
         this.color = color;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getVehicleNumber() {

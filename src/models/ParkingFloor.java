@@ -4,8 +4,7 @@ import models.enums.ParkingFloorStatus;
 
 import java.util.List;
 
-public class ParkingFloor {
-    private int id;
+public class ParkingFloor extends BaseModel{
     private List<ParkingSpot> parkingSpots;
     private int floorNumber;
     private Gate entryGate;
@@ -15,21 +14,12 @@ public class ParkingFloor {
     public ParkingFloor() {
     }
 
-    public ParkingFloor(int id, List<ParkingSpot> parkingSpots, int floorNumber, Gate entryGate, Gate exitGate, ParkingFloorStatus parkingFloorStatus) {
-        this.id = id;
+    public ParkingFloor(List<ParkingSpot> parkingSpots, int floorNumber, Gate entryGate, Gate exitGate, ParkingFloorStatus parkingFloorStatus) {
         this.parkingSpots = parkingSpots;
         this.floorNumber = floorNumber;
         this.exitGate = exitGate;
         this.entryGate = entryGate;
         this.parkingFloorStatus = parkingFloorStatus;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public List<ParkingSpot> getParkingSpots() {

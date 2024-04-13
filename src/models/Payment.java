@@ -6,7 +6,6 @@ import models.enums.PaymentStatus;
 import java.time.LocalDateTime;
 
 public class Payment {
-    private int id;
     private PaymentStatus paymentStatus;
     private LocalDateTime paymentTime;
     private double amount;
@@ -17,22 +16,13 @@ public class Payment {
     public Payment() {
     }
 
-    public Payment(int id, PaymentStatus paymentStatus, LocalDateTime paymentTime, double amount, PaymentMode paymentMode, Bill bill, String transactionRefNo) {
-        this.id = id;
+    public Payment(PaymentStatus paymentStatus, LocalDateTime paymentTime, double amount, PaymentMode paymentMode, Bill bill, String transactionRefNo) {
         this.paymentStatus = paymentStatus;
         this.paymentTime = paymentTime;
         this.amount = amount;
         this.paymentMode = paymentMode;
         this.bill = bill;
         this.transactionRefNo = transactionRefNo;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public PaymentStatus getPaymentStatus() {

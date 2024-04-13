@@ -7,8 +7,7 @@ import service.strategy.spotAllocationStrategy.SpotAllocationStrategy;
 
 import java.util.List;
 
-public class ParkingLot {
-    private int id;
+public class ParkingLot extends BaseModel{
     private String address;
     private String name;
     private int capacity;
@@ -21,8 +20,7 @@ public class ParkingLot {
     public ParkingLot() {
     }
 
-    public ParkingLot(int id, String address, String name, int capacity, List<ParkingFloor> parkingFloors, List<VehicleType> vehicleTypesSupported, ParkingLotStatus parkingLotStatus, SpotAllocationStrategy spotAllocationStrategy, BillCalculationStrategy billCalculationStrategy) {
-        this.id = id;
+    public ParkingLot(String address, String name, int capacity, List<ParkingFloor> parkingFloors, List<VehicleType> vehicleTypesSupported, ParkingLotStatus parkingLotStatus, SpotAllocationStrategy spotAllocationStrategy, BillCalculationStrategy billCalculationStrategy) {
         this.address = address;
         this.name = name;
         this.capacity = capacity;
@@ -31,14 +29,6 @@ public class ParkingLot {
         this.parkingLotStatus = parkingLotStatus;
         this.spotAllocationStrategy = spotAllocationStrategy;
         this.billCalculationStrategy = billCalculationStrategy;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getAddress() {

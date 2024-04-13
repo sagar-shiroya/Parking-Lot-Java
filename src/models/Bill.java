@@ -4,8 +4,7 @@ import models.enums.BillStatus;
 
 import java.time.LocalDateTime;
 
-public class Bill {
-    private int id;
+public class Bill extends BaseModel{
     private LocalDateTime exitTime;
     private double amount;
     private Ticket ticket;
@@ -15,21 +14,12 @@ public class Bill {
     public Bill() {
     }
 
-    public Bill(int id, LocalDateTime exitTime, double amount, Ticket ticket, Gate exitGate, BillStatus billStatus) {
-        this.id = id;
+    public Bill(LocalDateTime exitTime, double amount, Ticket ticket, Gate exitGate, BillStatus billStatus) {
         this.exitTime = exitTime;
         this.amount = amount;
         this.ticket = ticket;
         this.exitGate = exitGate;
         this.billStatus = billStatus;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public LocalDateTime getExitTime() {
