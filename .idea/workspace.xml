@@ -4,11 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c76a6ab6-d127-4c99-a4d3-2798a69cf9de" name="Changes" comment="" />
+    <list default="true" id="c76a6ab6-d127-4c99-a4d3-2798a69cf9de" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/models/BaseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Bill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Gate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/ParkingFloor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/ParkingLot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/ParkingSpot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/enums/GateStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/enums/GateType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/enums/ParkingFloorStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/enums/ParkingLotStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/enums/ParkingSpotStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/enums/PaymentMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/enums/PaymentStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/enums/VehicleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/strategy/billCalculationStrategy/BillCalculationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/strategy/spotAllocationStrategy/SpotAllocationStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -16,29 +46,30 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2d0TzTupr1vNfAfNRti0iWAbVJ5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -54,11 +85,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709144261282</updated>
-      <workItem from="1709144262447" duration="1955000" />
+      <workItem from="1709144262447" duration="2400000" />
+      <workItem from="1709207304054" duration="1086000" />
+      <workItem from="1709217356352" duration="4435000" />
+      <workItem from="1710614059848" duration="8000" />
+      <workItem from="1712753242880" duration="41000" />
+      <workItem from="1712753340114" duration="596000" />
+      <workItem from="1712821802735" duration="595000" />
+      <workItem from="1712895344672" duration="2000" />
+      <workItem from="1712923752005" duration="2000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
