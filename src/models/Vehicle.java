@@ -2,7 +2,7 @@ package models;
 
 import models.enums.VehicleType;
 
-public class Vehicle {
+public class Vehicle extends BaseModel{
     private String vehicleNumber;
     private VehicleType type;
     private String color;

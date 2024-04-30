@@ -10,7 +10,7 @@ public class EVParkingSpot extends ParkingSpot{
     }
 
     public EVParkingSpot(int id, int number, VehicleType vehicleType, ParkingSpotStatus parkingSpotStatus, Vehicle vehicle, String charger) {
-        super(id, number, vehicleType, parkingSpotStatus, vehicle);
+        super(number, vehicleType, parkingSpotStatus, vehicle);
         this.charger = charger;
     }
 

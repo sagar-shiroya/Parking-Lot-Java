@@ -5,26 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c76a6ab6-d127-4c99-a4d3-2798a69cf9de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/models/BaseModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Bill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Gate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/ParkingFloor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/ParkingLot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/ParkingSpot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/enums/GateStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/enums/GateType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/enums/ParkingFloorStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/enums/ParkingLotStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/enums/ParkingSpotStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/enums/PaymentMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/enums/PaymentStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/enums/VehicleType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/strategy/billCalculationStrategy/BillCalculationStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/strategy/spotAllocationStrategy/SpotAllocationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/TicketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ParkingFloorNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ParkingLotNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ParkingSpotNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/TicketNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repository/GateRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repository/ParkingFloorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repository/ParkingLotRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repository/ParkingSpotRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repository/TicketRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/TicketService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/EVParkingSpot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/EVParkingSpot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/LuxuryParkingSpot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/LuxuryParkingSpot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,14 +32,26 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sagar-shiroya&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/sagar-shiroya/Parking-Lot-Java.git&quot;,
+    &quot;accountId&quot;: &quot;b07c6767-c663-4dd7-b8a2-cb335b0568d9&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -55,25 +64,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "settings.editor.splitter.proportion": "0.2680938",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="service" />
+      <recent name="models" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
       </set>
     </attachedChunks>
   </component>
@@ -94,6 +111,11 @@
       <workItem from="1712821802735" duration="595000" />
       <workItem from="1712895344672" duration="2000" />
       <workItem from="1712923752005" duration="2000" />
+      <workItem from="1713007725690" duration="5625000" />
+      <workItem from="1714412483913" duration="130000" />
+      <workItem from="1714412684525" duration="354000" />
+      <workItem from="1714452872875" duration="2620000" />
+      <workItem from="1714455577346" duration="3883000" />
     </task>
     <servers />
   </component>

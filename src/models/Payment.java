@@ -5,7 +5,7 @@ import models.enums.PaymentStatus;
 
 import java.time.LocalDateTime;
 
-public class Payment {
+public class Payment extends BaseModel{
     private PaymentStatus paymentStatus;
     private LocalDateTime paymentTime;
     private double amount;

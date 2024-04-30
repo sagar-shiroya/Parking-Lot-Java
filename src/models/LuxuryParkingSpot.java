@@ -10,7 +10,7 @@ public class LuxuryParkingSpot extends ParkingSpot{
     }
 
     public LuxuryParkingSpot(int id, int number, VehicleType vehicleType, ParkingSpotStatus parkingSpotStatus, Vehicle vehicle, String guard) {
-        super(id, number, vehicleType, parkingSpotStatus, vehicle);
+        super(number, vehicleType, parkingSpotStatus, vehicle);
         this.guard = guard;
     }
 
