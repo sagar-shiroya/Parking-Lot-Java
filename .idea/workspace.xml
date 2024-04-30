@@ -5,23 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c76a6ab6-d127-4c99-a4d3-2798a69cf9de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/controller/TicketController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ParkingFloorNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ParkingLotNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ParkingSpotNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/TicketNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/GateRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/ParkingFloorRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/ParkingLotRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/ParkingSpotRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/TicketRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/TicketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLotMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/InitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/InitializationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/EVParkingSpot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/EVParkingSpot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/LuxuryParkingSpot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/LuxuryParkingSpot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/BillRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repository/BillRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/GateRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repository/GateRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/ParkingFloorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repository/ParkingFloorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/ParkingLotRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repository/ParkingLotRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/ParkingSpotRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repository/ParkingSpotRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/PaymentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repository/PaymentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/TicketRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repository/TicketRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/VehicleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repository/VehicleRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +47,9 @@
     &quot;accountId&quot;: &quot;b07c6767-c663-4dd7-b8a2-cb335b0568d9&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/repository/VehicleRepository.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -66,6 +64,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ParkingLotMain.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -115,7 +114,7 @@
       <workItem from="1714412483913" duration="130000" />
       <workItem from="1714412684525" duration="354000" />
       <workItem from="1714452872875" duration="2620000" />
-      <workItem from="1714455577346" duration="3883000" />
+      <workItem from="1714455577346" duration="7673000" />
     </task>
     <servers />
   </component>

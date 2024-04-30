@@ -7,6 +7,7 @@ import java.util.HashMap;
 
 public class ParkingFloorRepository {
     private HashMap<Integer, ParkingFloor> parkingFloorMap;
+    private static int idCounter = 0;
 
     public ParkingFloorRepository(){
         this.parkingFloorMap = new HashMap<>();
@@ -21,6 +22,7 @@ public class ParkingFloorRepository {
     }
 
     public void put(ParkingFloor parkingFloor){
+        parkingFloor.setId(++idCounter);
         parkingFloorMap.put(parkingFloor.getId(), parkingFloor);
         System.out.println("ParkingFloor has been added successfully");
     }

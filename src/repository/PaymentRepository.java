@@ -7,12 +7,14 @@ import java.util.HashMap;
 
 public class PaymentRepository {
     private HashMap<Integer, Payment> paymentMap;
+    private static int idCounter = 0;
 
     public PaymentRepository() {
         paymentMap = new HashMap<>();
     }
 
     public void put(Payment payment){
+        payment.setId(++idCounter);
         paymentMap.put(payment.getId(), payment);
         System.out.println("Payment has been added successfully");
     }

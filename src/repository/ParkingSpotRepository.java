@@ -7,6 +7,7 @@ import java.util.HashMap;
 
 public class ParkingSpotRepository {
     private HashMap<Integer, ParkingSpot> parkingSpotMap;
+    private static int idCounter = 0;
 
     public ParkingSpotRepository() {
         parkingSpotMap = new HashMap<>();
@@ -21,6 +22,7 @@ public class ParkingSpotRepository {
     }
 
     public void put(ParkingSpot parkingSpot){
+        parkingSpot.setId(++idCounter);
         parkingSpotMap.put(parkingSpot.getId(), parkingSpot);
         System.out.println("ParkingSpot has been added successfully");
     }

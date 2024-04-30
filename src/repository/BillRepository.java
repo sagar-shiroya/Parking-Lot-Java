@@ -7,12 +7,14 @@ import java.util.HashMap;
 
 public class BillRepository {
     private HashMap<Integer, Bill> billMap;
+    private static int idCounter = 0;
 
     public BillRepository() {
         billMap = new HashMap<>();
     }
 
     public void put(Bill bill){
+        bill.setId(++idCounter);
         billMap.put(bill.getId(), bill);
         System.out.println("Bill has been added successfully");
     }

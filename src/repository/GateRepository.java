@@ -8,12 +8,14 @@ import java.util.HashMap;
 
 public class GateRepository {
     private HashMap<Integer, Gate> gateMap;
+    private static int idCounter = 0;
 
     public GateRepository() {
         gateMap = new HashMap<>();
     }
 
     public void put(Gate gate){
+        gate.setId(++idCounter);
         gateMap.put(gate.getId(), gate);
         System.out.println("Gate has been added successfully");
     }
